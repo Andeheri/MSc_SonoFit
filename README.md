@@ -1,2 +1,2 @@
-# MSc_SonoFit
-All the work related my master thesis with SonoFit
+# MSc - SonoFit
+All the work related to my master thesis with SonoFit.
