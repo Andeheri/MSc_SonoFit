@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.outDir": "thesis/_out/output",
+  "latex-workshop.latex.rootFile": "thesis/main.tex",
+  "latex-workshop.latex.recursive": true,
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "-outdir=thesis/_out/output",
+        "-auxdir=thesis/_out/auxfiles",
+        "-cd",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "latexmk"
+}

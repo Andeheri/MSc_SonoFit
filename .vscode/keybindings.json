@@ -1,0 +1,19 @@
+[
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.insertLineAfter",
+    "when": "false"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Build LaTeX",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Clean and Build LaTeX",
+    "when": "editorTextFocus"
+  }
+]

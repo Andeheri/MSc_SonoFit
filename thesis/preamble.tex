@@ -1,0 +1,126 @@
+% -----------------------------------------------------------------------------
+% Encoding and language
+% -----------------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[british]{babel}
+
+% -----------------------------------------------------------------------------
+% Typography
+% -----------------------------------------------------------------------------
+\usepackage{microtype}          % Better text justification
+\usepackage{lmodern}            % Better font rendering
+\usepackage{setspace}
+\usepackage{siunitx}
+\DeclareSIUnit{\rpm}{rpm}
+\onehalfspacing
+
+% -----------------------------------------------------------------------------
+% Page geometry
+% -----------------------------------------------------------------------------
+\usepackage[
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    inner=3cm,                  % Wider inner margin for binding
+    outer=2.5cm,
+    headsep=1cm,
+]{geometry}
+
+% -----------------------------------------------------------------------------
+% Headers and footers
+% -----------------------------------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\nouppercase{\leftmark}}   % Chapter on even (left) pages
+\fancyhead[RO]{\nouppercase{\rightmark}}  % Section on odd (right) pages
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Plain style for chapter opening pages
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% -----------------------------------------------------------------------------
+% Mathematics
+% -----------------------------------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}          % Extends amsmath
+\usepackage{physics}            % \dv, \pdv, \abs, \norm, \qty, \grad, \curl, etc.
+
+% Theorem environments
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+% -----------------------------------------------------------------------------
+% Figures and tables
+% -----------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{adjustbox}          % Percentage-based image cropping
+\usepackage{float}
+\usepackage{booktabs}           % Professional tables (\toprule, \midrule, etc.)
+\usepackage{caption}
+\usepackage{subcaption}
+
+\graphicspath{{Figures/}}       % Default figure search path
+
+% -----------------------------------------------------------------------------
+% References and links
+% -----------------------------------------------------------------------------
+\usepackage[
+    backend=biber,
+    style=apa,
+    sorting=nyt,
+    maxbibnames=99,
+]{biblatex}
+\DeclareLanguageMapping{english}{english-apa}
+\addbibresource{refs.bib}
+
+\usepackage[
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={Specialization Project Thesis},
+    pdfauthor={Anders Haarberg Eriksen},
+]{hyperref}
+
+\usepackage{eurosym}
+
+\usepackage[noabbrev, capitalise]{cleveref}   % \cref{} for smart references
+
+% Joint/segment name subscripts — uppercase but rendered at scriptscriptstyle
+% so capitals appear similar in visual size to lowercase subscripts.
+% Usage: \varphi_{\jnt{MCP}}
+\newcommand{\jnt}[1]{{\scriptscriptstyle\mathrm{#1}}}
+
+% -----------------------------------------------------------------------------
+% Misc
+% -----------------------------------------------------------------------------
+\usepackage{xcolor}
+\usepackage{lipsum}             % Dummy text — remove when writing for real
+\usepackage{csquotes}           % Required by biblatex with babel
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{circuitikz}     % Circuit diagrams
+\usepackage{import}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\usepackage{booktabs}
+\usepackage{multirow}

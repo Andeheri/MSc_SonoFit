@@ -1,0 +1,45 @@
+\documentclass[12pt, a4paper, twoside]{report}
+
+\input{preamble}
+
+\begin{document}
+% --- Front matter ---
+\pagenumbering{roman}
+
+\input{Frontmatter/Title}
+\cleardoublepage
+
+\input{Frontmatter/Abstract}
+\newpage
+\input{Frontmatter/Task_outline.tex}
+\cleardoublepage
+
+\input{Frontmatter/Acknowledgements}
+\cleardoublepage
+
+\tableofcontents
+\cleardoublepage
+
+\listoffigures
+\listoftables
+\cleardoublepage
+
+\pagenumbering{arabic}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\newpage
+\input{Chapters/Introduction.tex}
+\newpage
+\input{Chapters/Theory.tex}
+\newpage
+\input{Chapters/Method.tex}
+\newpage
+\input{Chapters/Results.tex}
+\newpage
+\input{Chapters/Discussion.tex}
+\newpage
+\input{Chapters/Conclusion.tex}
+\newpage
+\printbibliography
+\newpage
+% \input{Chapters/Appendix.tex}
+\end{document}
