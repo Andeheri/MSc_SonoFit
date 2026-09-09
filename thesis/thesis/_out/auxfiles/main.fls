@@ -611,11 +611,11 @@ INPUT ./Figures/../../code/figures/theory/emitted_waveform.pdf
 INPUT ./Figures/../../code/figures/theory/emitted_waveform.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT ./Chapters/Method.tex
 INPUT ./Chapters/Method.tex
 INPUT Chapters/Method.tex
-INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT ./Chapters/Results.tex
 INPUT ./Chapters/Results.tex
 INPUT Chapters/Results.tex

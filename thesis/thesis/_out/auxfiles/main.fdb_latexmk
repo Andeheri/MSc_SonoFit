@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber thesis/_out/auxfiles/main"] 1787061834.83612 "thesis/_out/auxfiles/main.bcf" "thesis/_out/auxfiles/main.bbl" "thesis/_out/auxfiles/main" 1787062201.73298 0
-  "thesis/_out/auxfiles/main.bcf" 1787062200 133344 943806cc59c01b4d7b907523cf25b67d "pdflatex"
+["biber thesis/_out/auxfiles/main"] 1787061834.83612 "thesis/_out/auxfiles/main.bcf" "thesis/_out/auxfiles/main.bbl" "thesis/_out/auxfiles/main" 1787924515.17494 0
+  "thesis/_out/auxfiles/main.bcf" 1787924513 133344 943806cc59c01b4d7b907523cf25b67d "pdflatex"
   (generated)
   "thesis/_out/auxfiles/main.bbl"
   "thesis/_out/auxfiles/main.blg"
   (rewritten before read)
-["pdflatex"] 1787062193.30183 "main.tex" "thesis/_out/output/main.pdf" "main" 1787062201.73449 0
+["pdflatex"] 1787924505.04448 "main.tex" "thesis/_out/output/main.pdf" "main" 1787924515.17706 0
   "Chapters/Conclusion.tex" 1786706341 46 d637776b36832b3845a63a02ff9c1009 ""
   "Chapters/Discussion.tex" 1786706341 44 5b7c932a7e6194d08f754a9ebdcc0f77 ""
   "Chapters/Introduction.tex" 1786706341 54 f5c3e1421b45d2256950459b4b691ea5 ""
   "Chapters/Method.tex" 1786706341 35 be0fe19636b7827dfa1165b9c9497ef2 ""
   "Chapters/Results.tex" 1786706341 37 666040437a0a836b5a1505301a89e8d2 ""
-  "Chapters/Theory.tex" 1787061199 1916 f130e8a22727eba20c6151cf4f6c028e ""
+  "Chapters/Theory.tex" 1787924495 2552 ccce2b7497cdc2e62c813e7f04bd5f0d ""
   "Figures/../../code/figures/theory/emitted_waveform.pdf" 1787062190 186837 1290026fe18d3486555f3c7b4f33004c ""
   "Figures/Title/NTNU_Logo.jpg" 1786706341 55986 6563d2c54815c59dcaabdecaba877eed ""
   "Frontmatter/Abstract.tex" 1786706341 35 37874e808f40282fd34f2c4c76020d95 ""
@@ -308,13 +308,13 @@
   "c:/texlive/2025/texmf.cnf" 1772112191 713 e69b156964470283e0530f5060668171 ""
   "main.tex" 1786706341 885 cda177a02da7e44fc58461bb0a382d18 ""
   "preamble.tex" 1787057533 4846 03254f901c77f999056b44a05c056ad1 ""
-  "thesis/_out/auxfiles/main.aux" 1787062200 4524 71b3ae8374b68af80e98965d535d0e8a "pdflatex"
+  "thesis/_out/auxfiles/main.aux" 1787924513 4861 7a8e0aec99dc96b7d7d24a17eb799578 "pdflatex"
   "thesis/_out/auxfiles/main.bbl" 1787061848 486 76d65a242ec496c9b4361af646ff12cb "biber thesis/_out/auxfiles/main"
-  "thesis/_out/auxfiles/main.lof" 1787062200 375 3575036db11d865a5da7f147b7881b40 "pdflatex"
-  "thesis/_out/auxfiles/main.lot" 1787062200 150 ab1cad9be6d144ab98aff1c70194108d "pdflatex"
-  "thesis/_out/auxfiles/main.out" 1787062200 1788 4ac38520c39289c52ce4f2a0547703bf "pdflatex"
-  "thesis/_out/auxfiles/main.run.xml" 1787062200 2487 8559ec1ebedd7c9cfe4bf5b56019f7b8 "pdflatex"
-  "thesis/_out/auxfiles/main.toc" 1787062200 1169 c062614908793ad862bfaa2c0370c1b9 "pdflatex"
+  "thesis/_out/auxfiles/main.lof" 1787924513 375 3575036db11d865a5da7f147b7881b40 "pdflatex"
+  "thesis/_out/auxfiles/main.lot" 1787924513 150 ab1cad9be6d144ab98aff1c70194108d "pdflatex"
+  "thesis/_out/auxfiles/main.out" 1787924513 1988 052d4037e72f709058eae1b8909b0af9 "pdflatex"
+  "thesis/_out/auxfiles/main.run.xml" 1787924513 2487 8559ec1ebedd7c9cfe4bf5b56019f7b8 "pdflatex"
+  "thesis/_out/auxfiles/main.toc" 1787924513 1383 0c4c882f5f142edd965c96378dd05764 "pdflatex"
   "use Figures/../../code/figures/theory/emitted_waveform.pdf" 1787062190 186837 1290026fe18d3486555f3c7b4f33004c ""
   (generated)
   "thesis/_out/auxfiles/main.acn"

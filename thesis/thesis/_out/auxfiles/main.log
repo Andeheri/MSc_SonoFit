@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  18 AUG 2026 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  28 AUG 2026 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1419,7 +1419,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (./Frontmatter/Title.tex
-<Figures/Title/NTNU_Logo.jpg, id=67, 2055.68pt x 531.9875pt>
+<Figures/Title/NTNU_Logo.jpg, id=75, 2055.68pt x 531.9875pt>
 File: Figures/Title/NTNU_Logo.jpg Graphic file (type jpg)
 <use Figures/Title/NTNU_Logo.jpg>
 Package pdftex.def Info: Figures/Title/NTNU_Logo.jpg  used on input line 6.
@@ -1561,14 +1561,20 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/../../code/figures/theory/emitted_waveform.pdf, id=139, 949.98683pt x 606.34532pt>
+<Figures/../../code/figures/theory/emitted_waveform.pdf, id=149, 949.98683pt x 606.34532pt>
 File: Figures/../../code/figures/theory/emitted_waveform.pdf Graphic file (type pdf)
 <use Figures/../../code/figures/theory/emitted_waveform.pdf>
 Package pdftex.def Info: Figures/../../code/figures/theory/emitted_waveform.pdf  used on input line 42.
 (pdftex.def)             Requested size: 441.01773pt x 281.48506pt.
-) [2
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./Chapters/Method.tex
+Underfull \vbox (badness 7504) has occurred while \output is active []
+
+ [2
+
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}])
+Underfull \vbox (badness 2401) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1577,20 +1583,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./Figures/../../code/figures/theory/emitted_waveform.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4] (./Chapters/Method.tex
 Chapter 3.
-) [4
+) [5
 
 ] (./Chapters/Results.tex
 Chapter 4.
-) [5
+) [6
 
 ] (./Chapters/Discussion.tex
 Chapter 5.
-) [6
+) [7
 
 ] (./Chapters/Conclusion.tex
 Chapter 6.
-) [7
+) [8
 
 ]
 
@@ -1607,24 +1621,24 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4AC38520C39289C52CE4F2A0547703BF;1788.
+(rerunfilecheck)             Checksum: 052D4037E72F709058EAE1B8909B0AF9;1988.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 69719 strings out of 467532
- 1609842 string characters out of 5423647
+ 69727 strings out of 467532
+ 1609936 string characters out of 5423647
  3002642 words of memory out of 5000000
- 97682 multiletter control sequences out of 15000+600000
- 693845 words of font info for 127 fonts, out of 8000000 for 9000
+ 97684 multiletter control sequences out of 15000+600000
+ 693936 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,13n,165p,2504b,8855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis/_out/auxfiles/main.pdf (17 pages, 369343 bytes).
+Output written on thesis/_out/auxfiles/main.pdf (18 pages, 371000 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 43151 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 43167 words of extra memory for PDF output out of 51595 (max. 10000000)
 

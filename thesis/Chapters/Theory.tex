@@ -47,3 +47,12 @@ In the present system, \gls{PW Doppler} is used to measure the blood flow veloci
 \subsection{Decimation}
 
 \subsection{Clutter Filter}
+
+\section{IMU}
+\subsection{Sensor Fusion}
+
+Considering the gyro on the \gls{IMU} is prone to drift over time, sensor fusion algorithms are employed to combine the measurements from the accelerometer and the gyroscope to obtain a more accurate estimate of the orientation. In our \gls{IMU} we have access to linear acceleration from the accelerometer, and angular velocity from the gyroscope. There are several ways to perform sensor fusion, including complementary filters, Kalman filters, and more advanced nonlinear filtering techniques.
+
+\subsubsection{Complementary Filter}
+
+The idea behind the complementary filter is to 
