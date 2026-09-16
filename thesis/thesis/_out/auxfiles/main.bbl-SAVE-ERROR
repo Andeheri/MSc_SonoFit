@@ -16,5 +16,80 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{hellevik_cardiovascular}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=680d5436cc4c3f7704830a5aaf977fab}{%
+           family={Hellevik},
+           familyi={H\bibinitperiod},
+           given={Leif\bibnamedelima Rune},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{fullhash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{fullhashraw}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{bibnamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorbibnamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authornamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorfullhash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorfullhashraw}{680d5436cc4c3f7704830a5aaf977fab}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Cardiovascular biomechanics}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb PDF:/home/andeheri/Zotero/storage/69UALZA3/Hellevik - Cardiovascular biomechanics.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{hellevik_cardiovascular}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=680d5436cc4c3f7704830a5aaf977fab}{%
+           family={Hellevik},
+           familyi={H\bibinitperiod},
+           given={Leif\bibnamedelima Rune},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{fullhash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{fullhashraw}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{bibnamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorbibnamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authornamehash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorfullhash}{680d5436cc4c3f7704830a5aaf977fab}
+      \strng{authorfullhashraw}{680d5436cc4c3f7704830a5aaf977fab}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Cardiovascular biomechanics}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb PDF:/home/andeheri/Zotero/storage/69UALZA3/Hellevik - Cardiovascular biomechanics.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

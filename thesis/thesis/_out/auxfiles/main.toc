@@ -13,7 +13,10 @@
 \contentsline {section}{\numberline {2.3}IMU}{3}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Sensor Fusion}{3}{subsection.2.3.1}%
 \contentsline {subsubsection}{Complementary Filter}{4}{section*.7}%
-\contentsline {chapter}{\numberline {3}Method}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Results}{6}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Discussion}{7}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{8}{chapter.6}%
+\contentsline {section}{\numberline {2.4}The Cardiovascular system}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Artieries an Veins}{4}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}NOTES}{4}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Method}{6}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Results}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Discussion}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{9}{chapter.6}%

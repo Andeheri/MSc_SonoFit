@@ -1,9 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'thesis/_out/auxfiles/main.blg'
-[456] biber-MSWIN64:342> INFO - === 
-[621] Biber.pm:421> INFO - Reading 'thesis/_out/auxfiles/main.bcf'
-[882] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[919] bbl.pm:676> INFO - Writing 'thesis/_out/auxfiles/main.bbl' with encoding 'UTF-8'
-[919] bbl.pm:779> INFO - Output to thesis/_out/auxfiles/main.bbl
-[920] Biber.pm:132> WARN - The file 'thesis/_out/auxfiles/main.bcf' does not contain any citations!
-[920] Biber.pm:134> INFO - WARNINGS: 1
+[56] biber:342> INFO - === Fri Sep 11, 2026, 15:29:47
+[68] Biber.pm:421> INFO - Reading 'thesis/_out/auxfiles/main.bcf'
+[135] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
+[152] Biber.pm:4487> INFO - Processing section 0
+[159] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
+[160] bibtex.pm:1713> INFO - LaTeX decoding ...
+[165] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[207] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[207] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[207] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[207] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-GB'
+[216] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[217] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[217] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[217] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-GB'
+[223] bbl.pm:676> INFO - Writing 'thesis/_out/auxfiles/main.bbl' with encoding 'UTF-8'
+[226] bbl.pm:779> INFO - Output to thesis/_out/auxfiles/main.bbl
