@@ -56,3 +56,38 @@ Considering the gyro on the \gls{IMU} is prone to drift over time, sensor fusion
 \subsubsection{Complementary Filter}
 
 The idea behind the complementary filter is to 
+
+\section{The Cardiovascular system}
+
+\subsection{Artieries an Veins}
+
+\textbf{TODO: Add details on which arteries and veins are important in this thesis.}
+
+\subsection{NOTES}
+
+\textbf{TODO: Add details on how the heart functions}
+
+During \textit{systole}, the ventricles contract, ejecting blood out of the heart and into the arteries. This phase is followed by \textit{diastole}, during which the ventricles relax and fill with blood from the atria. This is a cyclic process that repeats with each heartbeat. The two phases can be observed in the blood flow velocity as a systolic peak during ventricular contraction and a diastolic peak during ventricular relaxation. \textbf{TODO: Am I correct in this?}
+
+The pressure wave emitted by the heart mostly remains unchanged in large and mid-size arteries, like the radial artery. Only a drop in mean pressure of a few $\si{\mmHg}$ can be observed, due to viscous effects. 
+
+The peak value of the pressure, measured at any location, is called the \textit{systolic pressure} $p_s$. The minimal pressure value is denoted the \textit{diastolic pressure} $p_d$. The difference between the systolic and diastolic pressures is known as the \textit{pulse pressure} $p_{pulse} = p_s - p_d$. Blood pressure is traditionally expressed in $\si{\mmHg}$ ($\SI{1}{\mmHg} \approx \SI{133.322}{\pascal}$).
+
+\textit{Compliance} describes the change in vessel dimensions in response to a change in internal pressure. \textcite{hellevik_cardiovascular} defines compliance as a local property of the vessel wall and expresses it in terms of the cross-sectional area $A$ and the internal pressure $p$ as:
+
+\begin{equation}
+C = \frac{\partial A}{\partial p}.
+\end{equation}
+
+This represents the change in cross-sectional area per unit change in pressure and can be interpreted as a local measure of vessel compliance. A related quantity is the \textit{distensibility} $D$, which is the compliance normalized by the cross-sectional area,
+
+\begin{equation}
+D = \frac{1}{A}\frac{\partial A}{\partial p}
+= \frac{C}{A}.
+\end{equation}
+
+Blood vessels with a wall thickness $h$ much smaller than the vessel radius $r$, such that $h \ll r$, are referred to as \textit{thin-walled vessels}. For thin-walled vessels, the compliance can be approximated as:
+\begin{equation}
+C \approx 2 \frac{r}{h} \frac{A}{\eta},
+\end{equation}
+where $\eta$ is the Young's modulus of the vessel wall material (\textbf{POSSIBLE TODO: ADD PROOF OF THIS}). As a general rule of thumb, blood vessels are considered thin-walled when the ratio of the radius to the wall thickness, $\frac{r}{h}$, is greater than 10 \parencite{ibrahim_stress_2015}. \textcite{getachew_diameter_2018} measured did a study on the radial artery in 
